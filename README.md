@@ -64,3 +64,7 @@ $ forge --help
 $ anvil --help
 $ cast --help
 ```
+
+forge init
+
+forge install smartcontractkit/chainlink-brownie-contracts@1.1.1 --no-commit

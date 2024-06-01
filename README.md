@@ -68,3 +68,7 @@ $ cast --help
 forge init
 
 forge install smartcontractkit/chainlink-brownie-contracts@1.1.1 --no-commit
+
+forge script script/Interactions.s.sol:FundFundMe --rpc-url http://localhost:8545 --private-key 0x
+
+forge test --fork-url $SEPOLIA_RPC_URL
